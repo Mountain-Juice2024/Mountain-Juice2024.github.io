@@ -5,41 +5,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mountain Juice & Coffee</title>
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <h1>Mountain Juice & Coffee</h1>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+        <div class="container">
+            <h1>Mountain Juice & Coffee</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
     
     <section id="home" class="hero">
-        <h2>Freshly Brewed Coffee & Natural Juices</h2>
-        <p>Experience the taste of nature in every sip.</p>
+        <div class="container">
+            <h2>Pure. Fresh. Natural.</h2>
+            <p>Elevate your day with our artisan coffee and fresh juices.</p>
+            <a href="#about" class="btn">Learn More</a>
+        </div>
     </section>
     
-    <section id="about">
-        <h2>About Us</h2>
-        <p>Mountain Juice & Coffee is dedicated to providing the best organic coffee and fresh juices. Sourced from the finest ingredients, our beverages bring a taste of nature to your cup.</p>
+    <section id="about" class="section">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>At Mountain Juice & Coffee, we blend nature's best ingredients to bring you refreshing juices and expertly brewed coffee. Our commitment to quality ensures that every sip is a moment of pure indulgence.</p>
+        </div>
     </section>
     
-    <section id="contact">
-        <h2>Contact Us</h2>
-        <form id="contact-form">
-            <input type="text" id="name" placeholder="Your Name" required>
-            <input type="email" id="email" placeholder="Your Email" required>
-            <textarea id="message" placeholder="Your Message" required></textarea>
-            <button type="submit">Send</button>
-        </form>
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Get in Touch</h2>
+            <form id="contact-form">
+                <input type="text" id="name" placeholder="Your Name" required>
+                <input type="email" id="email" placeholder="Your Email" required>
+                <textarea id="message" placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
     </section>
     
     <footer>
-        <p>&copy; 2025 Mountain Juice & Coffee. All rights reserved.</p>
+        <div class="container">
+            <p>&copy; 2025 Mountain Juice & Coffee. Crafted with passion.</p>
+        </div>
     </footer>
     
     <script src="script.js"></script>
