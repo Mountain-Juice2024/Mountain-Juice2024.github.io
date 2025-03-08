@@ -7,7 +7,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #ffefef; /* Single background colour */
+    background-color: #02b3c3; /* Single background colour */
     color: #333;
     height: 100vh;
     display: flex;
@@ -20,7 +20,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 20px 40px;
-    background: #f68953;
+    background: #36130e;
     color: white;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
