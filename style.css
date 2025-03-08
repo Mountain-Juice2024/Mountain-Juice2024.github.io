@@ -7,7 +7,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #02b3c3; /* Single background colour */
+    background-color: #321e13; /* Single background colour */
     color: #333;
     height: 100vh;
     display: flex;
@@ -25,7 +25,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 25px 120px; /* Adjusted padding */
-    background: #02b3c3;
+    background: #ff7e3e;
     color: white;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     z-index: 1000; /* Ensures it stays above other content */
@@ -65,13 +65,13 @@ nav ul li a:hover {
 /* Hero Section */
 .hero {
     height: 60vh;
-    color: #f68953;
+    color: #ff7e3e;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     position: relative;
-    background-color: #36130e; /* Same background as body */
+    background-color: #321e13; /* Same background as body */
 }
 
 .hero-content {
