@@ -54,7 +54,7 @@ nav ul li a:hover {
 /* Hero Section */
 .hero {
     height: 60vh;
-    color: white;
+    color: #02b3c3;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -64,7 +64,7 @@ nav ul li a:hover {
 }
 
 .hero-content {
-    max-width: 700px;
+    max-width: 900px;
     padding: 20px;
 }
 
@@ -80,7 +80,7 @@ nav ul li a:hover {
 }
 
 .btn {
-    padding: 15px 30px;
+    padding: 25px 40px;
     background: #eda02a;
     color: white;
     text-decoration: none;
