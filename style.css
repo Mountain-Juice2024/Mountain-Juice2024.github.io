@@ -65,7 +65,7 @@ nav ul li a:hover {
 /* Hero Section */
 .hero {
     height: 60vh;
-    color: #ff7e3e;
+    color: #02b3c3;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -151,7 +151,7 @@ nav ul li a:hover {
 /* Footer */
 footer {
     padding: 20px;
-    background: #333;
+    background: #fff4dc;
     color: white;
     text-align: center;
     margin-top: auto;
