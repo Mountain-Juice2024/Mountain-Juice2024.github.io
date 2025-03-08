@@ -1,8 +1,13 @@
-
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #fff5f5;
+    background-color: #ffefef; /* Single background colour */
     color: #333;
     height: 100vh;
     display: flex;
@@ -49,13 +54,13 @@ nav ul li a:hover {
 /* Hero Section */
 .hero {
     height: 60vh;
-    background: #02b3c3;
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     position: relative;
+    background-color: #ffefef; /* Same background as body */
 }
 
 .hero-content {
@@ -91,9 +96,9 @@ nav ul li a:hover {
 
 /* Menu Section */
 .menu {
-    background-color: #fff5f5;
     padding: 60px 20px;
     text-align: center;
+    background-color: #ffefef; /* Same background as body */
 }
 
 .menu h2 {
