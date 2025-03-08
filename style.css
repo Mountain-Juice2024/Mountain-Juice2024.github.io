@@ -19,8 +19,8 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 40px;
-    background: #36130e;
+    padding: 20px 100px;
+    background: #02b3c3;
     color: white;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
@@ -60,7 +60,7 @@ nav ul li a:hover {
     align-items: center;
     text-align: center;
     position: relative;
-    background-color: #02b3c3; /* Same background as body */
+    background-color: #36130e; /* Same background as body */
 }
 
 .hero-content {
