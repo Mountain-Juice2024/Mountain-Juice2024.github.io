@@ -86,9 +86,12 @@ nav ul li a:hover {
 }
 
 .hero p {
-    font-size: 1.3em;
-    margin-bottom: 30px;
+    font-size: 1.5em; /* Slightly larger */
+    font-weight: bold; /* Make it bold */
+    letter-spacing: 1px; /* Improve spacing */
+    color: #fff4dc; /* Make it stand out (adjust color if needed) */
 }
+
 
 .btn {
     padding: 25px 40px;
