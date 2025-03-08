@@ -2,7 +2,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #ffefef;
+    background-color: #fff5f5;
     color: #333;
     height: 100vh;
     display: flex;
@@ -91,7 +91,7 @@ nav ul li a:hover {
 
 /* Menu Section */
 .menu {
-    background-color: #fff;
+    background-color: #fff5f5;
     padding: 60px 20px;
     text-align: center;
 }
